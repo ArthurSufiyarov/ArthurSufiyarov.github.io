@@ -1,0 +1,348 @@
+* {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+.wrapper-head {
+	margin: 0 auto;
+	max-width: 1440px;
+	height: 400px;
+}
+.header-foto {
+	background-image: url(../img/Layer1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -999;
+	
+}
+.head {
+	margin: 0 auto;
+	width: auto;
+	height: 400px;
+	display: flex;
+}
+.header-social {
+	width: 350px;
+	height: 210px;
+    margin: auto 5px;
+}
+.logo {
+	margin: auto 5px;
+}
+.header-text {
+	text-align: center;
+	width: 100%;
+	padding: 0 25px;
+	margin-top: auto;
+}
+.help-text p {
+	color: #fff;
+}
+.office p {
+	color: #fff;
+}
+.header-phone a {
+	display: flex;
+	height: 50px;
+}
+.header-phone p:hover {
+	color: #c99659;
+}
+.header-phone a img {
+	margin: auto 0;
+}
+.header-phone a p {
+	width: 100%;
+    text-align: center;	
+	color: #fff;
+}
+.header-mail {
+	padding: 20px 0;
+}
+.header-mail a {
+	display: flex;
+	height: 50px;
+}
+.header-mail p:hover {
+	color: #c99659;
+}
+.header-mail a img {
+	margin: auto 0;
+}
+.header-mail a p {
+	margin: auto;
+	color: #fff;
+}
+.header-button {
+	border: 1.5px solid #fff;
+	border-radius: 25px;
+	text-align: center;
+	height: auto;
+}
+.header-button p {
+	font-size: 24px;
+	margin: 0;
+	padding: 7px;
+	width: auto;
+    height: auto;
+	color: #fff;
+}
+.header-button p:hover {
+	color: #c99659;
+	cursor: pointer;
+}
+.mobil-menu {
+	display: none;
+}
+.menu {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	height: 100px;
+	background-color: #edf0f2;
+	-webkit-box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.75);
+}
+.menu-list {
+	justify-content: center;
+	margin: 0 auto;
+	display: flex;
+	width: auto;
+	font-size: 36px;
+	padding: 0;
+	height: 100px;
+}
+.menu-list div {
+	margin: auto 0;
+	padding: 0 10px;
+}
+.menu-list div a p {
+	padding: 0;
+	margin: 0;
+} 
+.menu-list div a p:hover {
+	color: #c99659;
+}
+.menu-list div a hr {
+	margin: 0;
+}
+.menu-list div a hr:hover {
+	
+}
+
+
+.wrapper-footer {
+	width: 100%;
+	background-color: #edf0f2;
+}
+.footer {
+	margin: 0 auto;
+	max-width: 980px;
+/*	height: 520px;*/
+	
+	padding: 40px 10px;
+}
+.partners {
+	padding-bottom: 60px;
+}
+.partners-text p {
+	font-size: 36px;
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+.partners-logo {
+	display: flex;
+	justify-content: space-around;
+}
+.footer-social {
+	width: 100%;
+	height: 100%;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.social {
+	padding: 0 10px;
+}
+.vk img {
+	display: block;
+	margin: auto 0;
+}
+.vk a {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+}
+.vk a p {
+	padding-left: 10px;
+}
+.vk a p:hover {
+	color: #c99659;
+}
+.inst {
+	padding: 20px 0;
+}
+.inst a {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+}
+.inst a p {
+	padding-left: 10px;
+}
+.inst a p:hover {
+	color: #c99659;
+}
+.text {
+	text-align: center;
+}
+phone {
+	width: 210px;
+}
+.phone a {
+	display: flex;
+	height: 50px;
+}
+.phone a p {
+	width: 100%;
+	text-align: center;
+}
+.phone a p:hover {
+	color: #c99659;
+}
+.phone a img {
+	margin: auto 0;
+}
+.mail {
+	padding: 20px 0;
+	width: 210px;
+}
+.mail a {
+	display: flex;
+	height: 50px;
+}
+.mail a p {
+	width: 100%;
+	text-align: center;
+}
+.mail a p:hover {
+	color: #c99659;
+}
+.mail a img {
+	margin: auto 0;
+}
+.button-mail {
+	border: 1px solid #000;
+	border-radius: 25px;
+	text-align: center;
+	height: 50px;
+}
+.button-mail a {
+	font-size: 24px;
+	height: 50px;
+}
+.button-mail p:hover {
+	color: #c99659;
+	cursor: pointer;
+}
+
+
+
+
+
+/*send-mail*/
+.send-mail {
+	display: block;
+}
+.background-black {
+	background-color: #000;
+	opacity: 0.6;
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	height: 100%;	
+}
+.wrapper-mail {
+	margin: auto;
+	height: 500px;
+	width: 500px;
+	position: absolute;
+	left: auto;
+	top: auto;
+	z-index: 1000;
+	background-color: #fff;
+	
+}
+
+
+#modal_form {
+	min-width: 500px; 
+	min-height: 500px; /* Рaзмеры дoлжны быть фиксирoвaны */
+	border-radius: 5px;
+	border: 3px #edf0f2 solid;
+	background: #fff;
+	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+	top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+	left: 45%; /* пoлoвинa экрaнa слевa */
+	margin-top: -150px;
+	margin-left: -150px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+	display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+	opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+	z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+	padding: 20px 10px 0 10px;
+}
+/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+#modal_form #modal_close {
+	width: 21px;
+	height: 21px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: block;
+}
+/* Пoдлoжкa */
+#overlay {
+	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+	position:fixed; /* всегдa перекрывaет весь сaйт */
+	background-color:#000; /* чернaя */
+	opacity:0.8; /* нo немнoгo прoзрaчнa */
+	-moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+	filter:alpha(opacity=80);
+	width:100%; 
+	height:100%; /* рaзмерoм вo весь экрaн */
+	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	left:0;
+	cursor:pointer;
+	display:none; /* в oбычнoм сoстoянии её нет) */
+}
+#submit {
+	background-color: #edf0f2;
+	border: 1px solid #000;
+	border-radius: 25px;
+	width: auto;
+}
+#submit:hover {
+	background-color: #c99659;
+	color: #fff;
+}
+form p:last-child {
+	text-align: center;
+}
+textarea {
+	background-color: #edf0f2;
+	width: 100%;
+}
+form p input {
+	background-color: #edf0f2;
+	width: 100%;
+}
+form p img {
+	padding-right: 5px;
+}
