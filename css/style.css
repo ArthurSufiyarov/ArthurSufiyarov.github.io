@@ -18,7 +18,6 @@
 	height: 100%;
 	position: fixed;
 	z-index: -999;
-	
 }
 .head {
 	margin: 0 auto;
@@ -41,6 +40,7 @@
 	margin-top: auto;
 }
 .help-text p {
+	font-size: 24px;
 	color: #fff;
 }
 .office p {
@@ -132,11 +132,8 @@
 .menu-list div a hr {
 	margin: 0;
 }
-.menu-list div a hr:hover {
-	
+.menu-list div a hr:hover {	
 }
-
-
 .wrapper-footer {
 	width: 100%;
 	background-color: #edf0f2;
@@ -144,8 +141,6 @@
 .footer {
 	margin: 0 auto;
 	max-width: 980px;
-/*	height: 520px;*/
-	
 	padding: 40px 10px;
 }
 .partners {
@@ -252,10 +247,6 @@ phone {
 	cursor: pointer;
 }
 
-
-
-
-
 /*send-mail*/
 .send-mail {
 	display: block;
@@ -264,7 +255,7 @@ phone {
 	background-color: #000;
 	opacity: 0.6;
 	position: absolute;
-	z-index: 999;
+	z-index: 9;
 	width: 100%;
 	height: 100%;	
 }
@@ -276,28 +267,26 @@ phone {
 	left: auto;
 	top: auto;
 	z-index: 1000;
-	background-color: #fff;
-	
+	background-color: #fff;	
 }
-
 
 #modal_form {
 	min-width: 500px; 
-	min-height: 500px; /* Рaзмеры дoлжны быть фиксирoвaны */
+	min-height: 510px; 
 	border-radius: 5px;
 	border: 3px #edf0f2 solid;
 	background: #fff;
-	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
-	top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
-	left: 45%; /* пoлoвинa экрaнa слевa */
+	position: fixed; 
+	top: 45%; 
+	left: 45%; 
 	margin-top: -150px;
-	margin-left: -150px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
-	display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
-	opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
-	z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+	margin-left: -150px;
+	display: none;
+	opacity: 0; 
+	z-index: 5; 
 	padding: 20px 10px 0 10px;
 }
-/* Кнoпкa зaкрыть для тех ктo в тaнке) */
+
 #modal_form #modal_close {
 	width: 21px;
 	height: 21px;
@@ -307,20 +296,20 @@ phone {
 	cursor: pointer;
 	display: block;
 }
-/* Пoдлoжкa */
+
 #overlay {
-	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
-	position:fixed; /* всегдa перекрывaет весь сaйт */
-	background-color:#000; /* чернaя */
-	opacity:0.8; /* нo немнoгo прoзрaчнa */
-	-moz-opacity:0.8; /* фикс прозрачности для старых браузеров */
+	z-index:3; 
+	position:fixed; 
+	background-color:#000;
+	opacity:0.8; 
+	-moz-opacity:0.8; 
 	filter:alpha(opacity=80);
 	width:100%; 
-	height:100%; /* рaзмерoм вo весь экрaн */
-	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	height:100%; 
+	top:0;
 	left:0;
 	cursor:pointer;
-	display:none; /* в oбычнoм сoстoянии её нет) */
+	display:none;
 }
 #submit {
 	background-color: #edf0f2;
@@ -346,3 +335,183 @@ form p input {
 form p img {
 	padding-right: 5px;
 }
+
+/*slider-home*/
+.slider_wrap {
+	width:680px;
+	height:400px;
+	position:relative;
+	overflow:hidden;
+	margin: auto 0;
+}
+.slider_wrap img {
+	width:640px;
+	height:auto;
+	display:none;
+	position:absolute;
+	top:0;
+	left:20px;	
+}
+.slider_wrap img:first-child {
+	display:block;
+}
+.slider_wrap span {
+	margin-top:-13px;
+	width:15px;
+	height:26px;
+	display:block;
+	position:absolute;
+	top:50%;
+	cursor:pointer;
+	background:url(../img/slider2_arrow.png) no-repeat;
+}
+.slider_wrap span.next {
+	right: 30px;
+	background-position:-15px 0;
+}
+.slider_wrap span.next:hover {
+	background-position:-15px -26px;
+}
+.slider_wrap span.prev {
+	left: 30px;
+	background-position: 0 0;
+}
+.slider_wrap span.prev:hover {
+	background-position: 0 -26px;
+}
+
+/*home-content*/
+.main-content {
+	padding-top: 40px;
+	background-color: #edf0f2;
+}
+.wrapper-content {
+	max-width: 980px;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+.left-content {
+	padding: 10px;
+	background-color: #fff;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+.left-content > p {
+	font-size: 26px;
+	margin: 0;
+	padding-bottom: 10px;
+}
+.left-content > a {
+	display: block;
+	padding: 5px;
+	color: blue;
+	text-decoration: underline;
+}
+.left-content > a:last-child {
+	font-size: 26px;
+	color: #000;
+}
+.wrapper-top-content {
+	justify-content: space-between;
+	width: 100%;
+	display: flex;
+}
+.title-content {
+	padding: 20px 0;
+	font-size: 26px;
+	text-align: center;
+}
+.text-content {
+	font-size: 24px;
+	text-align: center;
+}
+
+/*event-content*/
+.wrapper-event {
+	padding-top: 40px;
+	background-color: #edf0f2	
+}
+.event-block {
+	max-width: 960px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+.event-date {
+	width: 220px;
+	text-align: center;
+	background: white;
+    border-radius: 20px;
+    padding: 10px;
+	margin: 10px 10px;
+}
+.event-date > p {
+	line-height: 25px;
+	margin: 0 0 15px 0;
+	font-size: 16px;
+}
+.event-date > a {
+	color: blue;
+	font-size: 24px;
+}
+
+/*event-about*/
+.wrapper-event-about {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.event-about {
+	padding: 20px 20px;
+	background-color: #edf0f2;
+}
+.event-about-block {
+	display: flex;
+	padding: 20px 0;
+}
+.event-about-block-img {
+	margin: auto;
+}
+.event-about-block-img > img {
+	max-width: 400px;
+	border-radius: 10px;
+}
+.event-about-block-text {
+	padding: 0 20px;
+	margin: auto;
+	font-size: 24px;
+}
+.event-about-gallery {
+	display: flex;
+	border-radius: 10px;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-height: 600px;
+    overflow: overlay;
+	margin-top: 40px;
+}
+.event-about-gallery-foto {
+	max-width: 400px;
+	max-height: 250px;
+	padding: 0 25px;
+	overflow: hidden;
+	margin: 10px;
+}
+.event-about-gallery-foto > img {
+	
+}
+.event-about-gallery > a {
+	background-color: #000;
+	margin: 20px 20px;
+
+}
+.event-about-gallery-foto > a > img {
+	max-width: 400px;
+	max-height: auto;
+}
+
+/*team-content*/
+
