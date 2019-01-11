@@ -64,6 +64,15 @@ $(document).ready(function() {
 					.animate({opacity: 1, top: '50%'}, 200);
 		});
 	});
+	$('#go3').click( function(event){ 
+		event.preventDefault(); 
+		$('#overlay').fadeIn(400, 
+		 	function(){ 
+				$('#modal_form') 
+					.css('display', 'block')
+					.animate({opacity: 1, top: '50%'}, 200);
+		});
+	});
 	$('#modal_close, #overlay').click( function(){ // лoвим клик пo крестику или пoдлoжке
 		$('#modal_form')
 			.animate({opacity: 0, top: '45%'}, 200,  

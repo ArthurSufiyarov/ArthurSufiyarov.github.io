@@ -171,12 +171,36 @@
 		display: none;
 	}
 }
+@media screen and (max-width: 650px) {
+	.contact-position {
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-top: 0;
+	}
+	.contact-left-block {
+		padding: 20px 0;
+	}
+	.contact-call {
+		justify-content: center;
+	}
+	.contact-sendmessage {
+		text-align: center;
+	}
+}
 @media screen and (max-width: 500px) {
 	.event-about-block-img > img{
 		max-width: 300px;
 	}
 }
-
+@media screen and (max-width: 450px) {
+	.contact-right-block {
+		text-align: center;
+		width: 300px;
+	}
+	.contact-right-block > iframe {
+		width: 100%;
+	}
+}
 @media screen and (max-width: 396px) {
 	.wrapper-head {
 		margin-bottom: 100px;	

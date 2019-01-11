@@ -515,3 +515,73 @@ form p img {
 
 /*team-content*/
 
+/*contact-content*/
+.contact-content {
+	padding-top: 40px;
+	background-color: #edf0f2;
+}
+.wrapper-contact {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.contact-block {
+	height: 100%;
+}
+.contact-call {
+	display: flex;
+	font-size: 24px;
+	max-width: 600px;
+	margin: auto;
+	padding: 0 15px;
+	flex-wrap: wrap;
+}
+.contact-call > p {
+	font-weight: bold;
+	padding-right: 20px;
+	margin: 0;
+	text-align: center;
+}
+.contact-call > p > a {
+	text-decoration: underline;
+}
+.contact-sendmessage {
+	max-width: 600px;
+	margin: auto;
+	font-size: 24px;
+	padding: 0 15px;
+}
+.contact-sendmessage > p {
+	margin: 0;
+}
+.contact-sendmailbutton {
+	color: #c99659; 
+}
+.contact-sendmailbutton:hover {
+	cursor: pointer;
+}
+.contact-position {
+	display: flex;
+	justify-content:space-between;
+	padding-top: 20px;
+	margin: 0 15px;
+}
+.contact-left-block {
+	margin: auto 0;
+}
+.contact-city {
+	font-size: 20px;
+	font-weight: bold;
+}
+.contact-address {
+	
+}
+.contact-map > a {
+	color: #c99659; 
+}
+.contact-map > img {
+	margin-right: 5px;
+	width: 20px;
+}
+
+
+
