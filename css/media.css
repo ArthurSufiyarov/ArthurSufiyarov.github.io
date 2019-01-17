@@ -170,6 +170,30 @@
 	.slider_wrap {
 		display: none;
 	}
+	.about-us-block {
+		padding-bottom: 40px;
+	}
+	.about-us-video-mob {
+		display: block;
+    	margin: 0 auto;
+	}
+	.about-us-video-mob > iframe {
+		display: block;
+		margin: 0 auto;
+	}
+	.about-us-video {
+		display: none;
+	}
+	.about-us-person {
+		flex-wrap: wrap;
+		padding: 0;
+	}
+	.about-us-person-foto {
+		order: 1;
+	}
+	.about-us-person-text {
+		order: 2;
+	}
 }
 @media screen and (max-width: 650px) {
 	.contact-position {

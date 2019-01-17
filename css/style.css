@@ -583,5 +583,66 @@ form p img {
 	width: 20px;
 }
 
+/*about-us*/
+.about-us-content {
+	padding-top: 40px;
+	background-color: #edf0f2;
+}
+.wrapper-about-us {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.about-us-block {
+	height: 100%;
+}
+.about-us-video-mob {
+	display: none;
+}
+.about-us-video > iframe {
+	display: block;
+	margin: 0 auto;
+}
+.about-us-person {
+	padding: 40px 0;
+	display: flex;
+	justify-content: center;
+}
+.about-us-person-foto {
+	
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/default.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 100%;
+}
+.about-us-person-text {
+	padding: 0 20px;
+    max-width: 500px;
+    margin: auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
